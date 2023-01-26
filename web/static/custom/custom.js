@@ -688,7 +688,7 @@ function get_important_subdomains(target_id, scan_history_id) {
 			}
 		} else {
 			$('#important-count').html(`<span class="badge badge-soft-primary ms-1 me-1">0</span>`);
-			$('#important-subdomains-list').append(`<p>No subdomains markerd as important!</p>`);
+			$('#important-subdomains-list').append(`<p>No subdomains marked as important!</p>`);
 		}
 		$('.bs-tooltip').tooltip();
 	});
